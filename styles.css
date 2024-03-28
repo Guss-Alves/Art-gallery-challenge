@@ -1,0 +1,204 @@
+
+/* generall page css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+/* Main container css starts here */
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.inner-main-container {
+    flex: 1;
+}
+
+/* first inner-div/ h1 css starts here */
+.inner-main-container:nth-child(1) {
+    background-color: black;
+    position: relative;
+}
+
+.inner-main-h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 800;
+    font-size: 6vw;
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 100%;
+    z-index: 999;
+}
+
+.special-char{
+    color: black;
+    position: absolute;
+    left: 16.5vw;
+}
+
+.dif-color{
+    color: black;
+}
+
+.inner-main-container img {
+    height: 100%;
+    width: 100%;
+}
+/* third inner-div/ paragraph css starts here */
+.inner-main-container:nth-child(3) {
+    position: relative;
+}
+.inner-right-main{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    position: absolute;
+    top: 20%;
+    right:38%;
+}
+.inner-main-p{
+    letter-spacing: 2px;
+    color: #444444;
+    font-size: 1.9vw;
+}
+
+/* third inner-div button css starts here */
+.inner-main-button{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 4vw ;
+    background-color: black;
+    cursor: pointer;
+}
+
+.button-element{
+    margin: 0;
+    padding: 0;
+    flex: 4;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.arrow-button{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #d5966c;
+}
+
+.arrow-button object{
+    width: auto; 
+    height: auto;
+
+}
+/* Mid container css starts here */
+.mid-container{
+margin: 12rem 0 12rem 0;
+padding: 0 15% 0 15%;
+}
+
+/* top-Mid container css starts here */
+.top-mid{
+    height: 30rem;
+    display: flex;
+}
+
+.top-left-mid{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+}
+
+.top-left-mid h2{
+    margin: 0;
+    padding: 0;
+    font-size: 4.6vw;
+    font-weight: 800;
+}
+.top-left-mid p{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3vw;
+    font-weight: 300;
+    color: #444444;
+}
+
+.top-right-mid{
+    flex: 1.4;
+    margin-left: 12rem;
+}
+
+.top-right-mid img{
+    height: 24vw;
+}
+
+/* bottom-Mid container css starts here */
+.bottom-mid{
+    height: 55rem;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.bottom-left-mid{
+    flex: 1.5;
+    background-color: aqua;
+    margin-right: 2rem;
+}
+
+.bottom-left-mid img{
+    height: 100%;
+    width: 100%;
+}
+
+/* bottom-Mid right side css starts here */
+
+.bottom-right-mid{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+.bottom-right-mid-img{
+    flex: 1;
+    background-color: burlywood;
+    margin-bottom: 2rem;
+}
+.bottom-right-mid-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-right-mid-text{
+    flex: 1;
+    background-color:black;
+    padding: 10%;
+}
+.bottom-right-mid-text h3{
+    font-size: 3.6vw;
+    font-weight: 800;
+    color: white;
+    margin-top: 0;
+}
+
+.bottom-right-mid-text p{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+
+/* Footer css starts here */
